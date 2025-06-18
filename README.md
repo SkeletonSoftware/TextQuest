@@ -25,6 +25,8 @@ Textová hra s umělou inteligencí v .NET 8!
 - Někdy se AI může "zaseknout" a neodpovídat, v tom případě restartuj hru.
 - Některé příkazy nemusí fungovat správně, pokud AI nerozumí kontextu.
 - Některé části hry mohou být nedokončené nebo obsahovat chyby, protože se jedná o experimentální projekt.
+- Chyba Exception has occurred: **CLR/System.InvalidOperationException**** ve VSCode
+   - Může se stát, že se aplikace nenapojí na integrated terminal, dá se to pouště buz bez debugu, nevo vytvořit debug profil přes **Debug and Run**
 
 ## Jak to funguje?
 Hra využívá AI model Llama3.2 pro generování textu a interakci s hráčem. AI reaguje na příkazy a vytváří příběh na základě tvých rozhodnutí.

@@ -63,13 +63,13 @@ public partial class GameLoop
 
         while (player.Type is null)
         {
-            var key = Console.ReadKey(intercept: true);
+            var key = Console.ReadLine();
             switch (key)
             {
-                case { Key: ConsoleKey.D1 }:
+                case "1":
                     player.SetCharacterType(CharacterType.Knight);
                     break;
-                case { Key: ConsoleKey.D2 }:
+                case "2":
                     player.SetCharacterType(CharacterType.Programmer);
                     break;
                 default:
